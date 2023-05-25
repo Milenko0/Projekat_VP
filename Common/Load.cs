@@ -33,9 +33,6 @@ namespace Common
         [DataMember]
         public double MeasuredValue { get => measuredValue; set => measuredValue = value; }
 
-        public override string ToString()
-        {
-            return Id + " " + Timestamp + " " + MeasuredValue;
-        }
+       
     }
 }
