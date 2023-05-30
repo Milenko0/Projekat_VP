@@ -11,13 +11,8 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            using (ServiceHost host = new ServiceHost(typeof(LibraryService)))
-            {
-                host.Open();
-                Console.WriteLine("Servis je uspesno pokrenut ");
-                Console.ReadKey();
-                host.Close();
-            }
+            Server server = new Server();
+            server.Start();
         }
     }
 }

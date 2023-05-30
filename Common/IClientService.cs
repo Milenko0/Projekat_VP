@@ -8,8 +8,12 @@ using System.Threading.Tasks;
 namespace Common
 {
     [ServiceContract]
-    public interface ILibrary
+    public interface IClientService
     {
+        [OperationContract]
+        void SendCsvFiles();
 
+        [OperationContract]
+        void GetMinMaxStand(string parameter);
     }
 }
