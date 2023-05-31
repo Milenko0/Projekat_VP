@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Common
 {
     [ServiceContract]
-    public interface IServerService : IDisposable
+    public interface IServerService
     {
         [OperationContract]
         void SendCsvFiles();
