@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace Client
 {
     public class Client : IDisposable
     {
         private ClientServiceProxy serviceProxy;
-        private bool disposedValue = false;
-        private static MemoryStream stream = new MemoryStream();
-        
         public Client()
         {
             serviceProxy = new ClientServiceProxy();
@@ -45,13 +41,13 @@ namespace Client
                 case "get":
                     if (parts.Length < 2)
                     {
-                        Console.WriteLine("Invalid command. Usage: Get [operation]");
+                        Console.WriteLine("Invalid command. Usage: Get [operation]...");
                         return;
                     }
 
-                    string op = parts[1].ToLower();
+                    
 
-                    serviceProxy.GetMinMaxStand(op);
+                    serviceProxy.GetMinMaxStand(parts);
                     break;
                 case "exit":
                     Console.WriteLine("Exiting client application...");
@@ -62,44 +58,15 @@ namespace Client
             }
         }
 
-        /*public void Dispose()
+        public void Dispose()
         {
             if (serviceProxy != null)
             {
                 serviceProxy.Close();
                 serviceProxy = null;
             }
-        }*/
-        
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!disposedValue)
-            {
-                if (disposing)
-                {
-                    // TODO: dispose managed state (managed objects)
-                    stream.Dispose();
-                }
-
-                // TODO: free unmanaged resources (unmanaged objects) and override finalizer
-                // TODO: set large fields to null
-                disposedValue = true;
-            }
         }
 
-        // // TODO: override finalizer only if 'Dispose(bool disposing)' has code to free unmanaged resources
-        ~Client()
-        {
-            // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
-            Dispose(disposing: false);
-        }
-
-        public void Dispose()
-        {
-            // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
-            Dispose(disposing: true);
-            GC.SuppressFinalize(this);
-        }
 
     }
 }

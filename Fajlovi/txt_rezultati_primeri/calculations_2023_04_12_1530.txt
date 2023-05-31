@@ -1,0 +1,3 @@
+Max Load: 6224.95035
+Min Load: 5156.61605
+Standard deviation: 421.7326626

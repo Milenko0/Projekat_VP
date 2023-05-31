@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 namespace Common
 {
     [ServiceContract]
-    public interface IServerService
+    public interface IServerService : IDisposable
     {
         [OperationContract]
         void SendCsvFiles();
 
         [OperationContract]
-        void GetMinMaxStand(string operation);
+        void GetMinMaxStand(string[] operation);
     }
 }

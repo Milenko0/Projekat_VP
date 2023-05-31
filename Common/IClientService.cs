@@ -14,6 +14,6 @@ namespace Common
         void SendCsvFiles();
 
         [OperationContract]
-        void GetMinMaxStand(string parameter);
+        void GetMinMaxStand(string []parameter);
     }
 }

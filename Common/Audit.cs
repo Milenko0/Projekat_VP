@@ -18,10 +18,7 @@ namespace Common
         private MessageType messageType;
         private string message;
 
-        public Audit()
-        {
-
-        }
+        public Audit() { }
 
         public Audit(int id, DateTime timestamp, MessageType messageType, string message)
         {
@@ -44,6 +41,5 @@ namespace Common
         {
             return Id + " " + Timestamp + " " + MessageType + " " + Message;
         }
-
     }
 }

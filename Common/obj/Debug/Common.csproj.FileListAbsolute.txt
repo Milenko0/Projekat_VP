@@ -1,0 +1,12 @@
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Common\bin\Debug\Common.dll
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Common\bin\Debug\Common.pdb
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Common\obj\Debug\Common.dll
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Common\obj\Debug\Common.pdb
+G:\_ProjekatVP\zadatak4\Common\bin\Debug\Common.dll
+G:\_ProjekatVP\zadatak4\Common\bin\Debug\Common.pdb
+G:\_ProjekatVP\zadatak4\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+G:\_ProjekatVP\zadatak4\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+G:\_ProjekatVP\zadatak4\Common\obj\Debug\Common.dll
+G:\_ProjekatVP\zadatak4\Common\obj\Debug\Common.pdb

@@ -10,17 +10,17 @@ using System.Threading.Tasks;
 
 namespace Server
 {
-    public class ServerService : IServerService, IDisposable
+    public class ServerService : IServerService
     {
         private string csvFolderPath;
         private XmlDatabase<Load> xmlDatabase;
-        private bool disposedValue = false;
-        private static MemoryStream stream = new MemoryStream();
+        private XmlDatabase<Audit> xmlDatabaseAudit;
 
         public ServerService()
         {
             csvFolderPath = GetCsvFolderPathFromConfig();
-            xmlDatabase = new XmlDatabase<Load>("D:\\fakultet\\6 - semestar\\Virtuelizacija procesa\\zadatak4\\Fajlovi\\xml_baza\\database.xml");
+            xmlDatabase = new XmlDatabase<Load>("TBL_LOAD.xml");
+            xmlDatabaseAudit = new XmlDatabase<Audit>("TBL_AUDIT.xml");
         }
 
         private string GetCsvFolderPathFromConfig()
@@ -37,32 +37,18 @@ namespace Server
                 foreach (string csvFile in csvFiles)
                 {
                     List<Load> loads = ParseCsvFile(csvFile);
-
                     foreach (Load load in loads)
                     {
+                        Console.WriteLine(load.ToString());
                         xmlDatabase.Add(load);
-
-                        Console.WriteLine("load MeasuredValue: " + load.MeasuredValue);
-                        Console.WriteLine("load Id: " + load.Id);
-                        Console.WriteLine("load Timestamp: " + load.Timestamp.ToString());
-
                     }
 
-                    File.Delete(csvFile);
+                    //File.Delete(csvFile);
 
                     Console.WriteLine($"Processed CSV file: {csvFile}");
                 }
 
                 Console.WriteLine("CSV files sent and processed successfully.");
-
-
-                List<Load> listaTest = xmlDatabase.GetAll();
-                foreach (var lista in listaTest)
-                {
-                    Console.WriteLine("TEST VALUE: " + lista.MeasuredValue);
-                }
-
-
             }
             catch (Exception ex)
             {
@@ -70,7 +56,7 @@ namespace Server
             }
         }
 
-        public void GetMinMaxStand(string operation)
+        public void GetMinMaxStand(string[] operation)
         {
             try
             {
@@ -78,51 +64,57 @@ namespace Server
                 double result = 0;
 
                 string resultMessage;
-
-                switch (operation.ToLower())
+                string resultMessageFull = "";
+                
+                for (int i = 1; i < operation.Length; i++)
                 {
-                    case "min":
-                        result = GetMinValue(loads);
-                        resultMessage = $"Min Load: {result}";
-                        break;
-                    case "max":
-                        result = GetMaxValue(loads);
-                        resultMessage = $"Max Load: {result}";
-                        break;
-                    case "stand":
-                        result = GetStandardDeviation(loads);
-                        resultMessage = $"Standard deviation: {result}";
-                        break;
-                    default:
-                        Console.WriteLine("Invalid operation.");
-                        return;
+                    switch (operation[i].ToLower())
+                    {
+                        case "min":
+                            result = GetMinValue(loads);
+                            resultMessage = $"Min Load: {result}";
+                            break;
+                        case "max":
+                            result = GetMaxValue(loads);
+                            resultMessage = $"Max Load: {result}";
+                            break;
+                        case "stand":
+                            result = GetStandardDeviation(loads);
+                            resultMessage = $"Standard deviation: {result}";
+                            break;
+                        default:
+                            Console.WriteLine("Invalid operation.");
+                            return;
+                    }
+                    resultMessageFull += resultMessage + "\n";
                 }
+                //resultMessageFull += resultMessage + "\n";
 
-                Console.WriteLine(resultMessage);
+                Console.WriteLine(resultMessageFull);
 
-                string fileName = "calculations" + DateTime.Now.ToString("_yyyy_MM_dd_HHmm") + ".txt";
+                string fileName =  "\\calculations" + DateTime.Now.ToString("_yyyy_MM_dd_HHmm") + ".txt";
 
                 string projectPath = @"..\Client\bin\Debug\Client.exe";
-                Configuration config = ConfigurationManager.OpenExeConfiguration(projectPath);
+               // Configuration config = ConfigurationManager.OpenExeConfiguration(projectPath);
 
                 // uploadPathTest - samo za test... inace putanja treba da se cita iz Client -> app.config, to je uploadPath u outputFilePath...
 
                 string uploadPathTest = ConfigurationManager.AppSettings["TxtFolderPath"];
 
-                string uploadPath = config.AppSettings.Settings["TxtFolderPath"].Value;
+                //string uploadPath = config.AppSettings.Settings["TxtFolderPath"].Value;
 
-                uploadPath += fileName;
+                uploadPathTest += fileName;
 
                 string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
                 string outputFilePath = Path.Combine(dir, uploadPathTest);  // uploadPath
 
-                File.WriteAllText(outputFilePath, resultMessage);
+                File.WriteAllText(outputFilePath, resultMessageFull);
 
                 Console.WriteLine($"Result written to file: {outputFilePath}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error retrieving result: {ex.Message}");
+                Console.WriteLine($"Error retrieving result: {ex.Message}");    
             }
         }
 
@@ -134,13 +126,17 @@ namespace Server
             {
                 using (StreamReader reader = new StreamReader(filePath))
                 {
+                    int brojac = 0;
+                    int brojacAudit = 0;
                     string line;
                     while ((line = reader.ReadLine()) != null)
                     {
+                        brojac++;
                         string[] values = line.Split(',');
-
+                        
                         if (values.Length != 2)
                         {
+                            brojacAudit++;
                             Audit audit = new Audit
                             {
                                 Id = loads.Count + 1,
@@ -152,7 +148,7 @@ namespace Server
                             AddAudit(audit);
                             continue;
                         }
-
+                        /*
                         if (!int.TryParse(values[0], out int id) || !DateTime.TryParse(values[1], out DateTime timeStamp) ||
                             !double.TryParse(values[2], out double measuredValue))
                         {
@@ -167,10 +163,17 @@ namespace Server
                             AddAudit(audit);
                             continue;
                         }
+*/
+                        //int.TryParse(values[0], out int id);
+                        DateTime.TryParse(values[0], out DateTime timeStamp);
+                        double.TryParse(values[1], out double measuredValue);
 
+                        //Console.WriteLine(id);
+                        Console.WriteLine(timeStamp);
+                        Console.WriteLine(measuredValue);
                         Load load = new Load
                         {
-                            Id = id,
+                            Id = brojac,
                             Timestamp = timeStamp,
                             MeasuredValue = measuredValue
                         };
@@ -202,6 +205,9 @@ namespace Server
 
         private double GetMinValue(List<Load> loads)
         {
+
+
+
             double minValue = loads[0].MeasuredValue;
 
             if (loads.Count() > 0)
@@ -234,6 +240,7 @@ namespace Server
 
         private double GetStandardDeviation(List<Load> loads)
         {
+            /*
             double standardDeviation = 0;
             double x = 0;
 
@@ -250,46 +257,33 @@ namespace Server
                 sum += Math.Pow((load.MeasuredValue - x), 2);
             }
 
-            standardDeviation = Math.Sqrt((sum) / (loads.Count() - 1));
+            standardDeviation = Math.Sqrt( (sum) / (loads.Count() - 1) );
 
             return standardDeviation;
-        }
-
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!disposedValue)
+            */
+            List<double> doubleList = new List<double>();
+            foreach(var load in loads)
             {
-                if (disposing)
-                {
-                    // TODO: dispose managed state (managed objects)
-                    stream.Dispose();
-
-                }
-
-                // TODO: free unmanaged resources (unmanaged objects) and override finalizer
-                // TODO: set large fields to null
-                disposedValue = true;
+                doubleList.Add(load.MeasuredValue);
             }
-        }
+            
+            double average = doubleList.Average();
+            double sumOfDerivation = 0;
+            foreach (double value in doubleList)
+            {
+                sumOfDerivation += (value) * (value);
+            }
+            double sumOfDerivationAverage = sumOfDerivation / (doubleList.Count - 1);
+            return Math.Sqrt(sumOfDerivationAverage - (average * average));
+            
 
-        // TODO: override finalizer only if 'Dispose(bool disposing)' has code to free unmanaged resources
-        ~ServerService()
-        {
-            // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
-            Dispose(disposing: false);
+            
         }
 
         public void Dispose()
         {
-            // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
-            Dispose(disposing: true);
-            GC.SuppressFinalize(this);
+            xmlDatabase.Dispose();
         }
 
-        /*public void Dispose()
-        {
-            xmlDatabase.Dispose();
-            //((IDisposable).xmlDatabase).Dispose();
-        }*/
     }
 }

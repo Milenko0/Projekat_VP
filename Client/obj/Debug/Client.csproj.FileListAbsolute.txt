@@ -1,0 +1,22 @@
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\bin\Debug\Client.exe.config
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\bin\Debug\Client.exe
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\bin\Debug\Client.pdb
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\bin\Debug\Common.dll
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\bin\Debug\Common.pdb
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\obj\Debug\Client.csproj.CopyComplete
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\obj\Debug\Client.exe
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Client\obj\Debug\Client.pdb
+G:\_ProjekatVP\zadatak4\Client\bin\Debug\Client.exe.config
+G:\_ProjekatVP\zadatak4\Client\bin\Debug\Client.exe
+G:\_ProjekatVP\zadatak4\Client\bin\Debug\Client.pdb
+G:\_ProjekatVP\zadatak4\Client\bin\Debug\Common.dll
+G:\_ProjekatVP\zadatak4\Client\bin\Debug\Common.pdb
+G:\_ProjekatVP\zadatak4\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+G:\_ProjekatVP\zadatak4\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+G:\_ProjekatVP\zadatak4\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+G:\_ProjekatVP\zadatak4\Client\obj\Debug\Client.csproj.CopyComplete
+G:\_ProjekatVP\zadatak4\Client\obj\Debug\Client.exe
+G:\_ProjekatVP\zadatak4\Client\obj\Debug\Client.pdb

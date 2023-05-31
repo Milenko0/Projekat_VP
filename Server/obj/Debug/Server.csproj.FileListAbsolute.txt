@@ -1,0 +1,28 @@
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\bin\Debug\Server.exe.config
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\bin\Debug\Server.exe
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\bin\Debug\Server.pdb
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\bin\Debug\Common.dll
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\bin\Debug\Database.exe
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\bin\Debug\Common.pdb
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\bin\Debug\Database.pdb
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\bin\Debug\Database.exe.config
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\obj\Debug\Server.csproj.CopyComplete
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\obj\Debug\Server.exe
+D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Server\obj\Debug\Server.pdb
+G:\_ProjekatVP\zadatak4\Server\bin\Debug\Server.exe.config
+G:\_ProjekatVP\zadatak4\Server\bin\Debug\Server.exe
+G:\_ProjekatVP\zadatak4\Server\bin\Debug\Server.pdb
+G:\_ProjekatVP\zadatak4\Server\bin\Debug\Common.dll
+G:\_ProjekatVP\zadatak4\Server\bin\Debug\Database.exe
+G:\_ProjekatVP\zadatak4\Server\bin\Debug\Common.pdb
+G:\_ProjekatVP\zadatak4\Server\bin\Debug\Database.pdb
+G:\_ProjekatVP\zadatak4\Server\bin\Debug\Database.exe.config
+G:\_ProjekatVP\zadatak4\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+G:\_ProjekatVP\zadatak4\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+G:\_ProjekatVP\zadatak4\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+G:\_ProjekatVP\zadatak4\Server\obj\Debug\Server.csproj.CopyComplete
+G:\_ProjekatVP\zadatak4\Server\obj\Debug\Server.exe
+G:\_ProjekatVP\zadatak4\Server\obj\Debug\Server.pdb

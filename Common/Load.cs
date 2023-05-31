@@ -14,10 +14,7 @@ namespace Common
         private DateTime timestamp;
         private double measuredValue;
 
-        public Load()
-        {
-
-        }
+        public Load() { }
 
         public Load(int id, DateTime timestamp, double measuredValue)
         {

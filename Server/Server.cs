@@ -30,7 +30,7 @@ namespace Server
 
         public void Start()
         {
-            host = new ServiceHost(typeof(IServerService));
+            host = new ServiceHost(typeof(ServerService));
             host.Open();
 
             Console.WriteLine("Server started.");
@@ -39,5 +39,6 @@ namespace Server
 
             host.Close();
         }
+
     }
 }
