@@ -45,8 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="ClientServiceProxy.cs" />
     <Compile Include="Enum\UploaderType.cs" />
     <Compile Include="FileInUseCheck\FileInUseCommonChecker.cs" />
     <Compile Include="FileInUseCheck\IFileInUseChecker.cs" />

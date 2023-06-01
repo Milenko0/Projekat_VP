@@ -31,3 +31,14 @@ G:\_ProjekatVP\Projekat_VP-master\Client\bin\Debug\Client.pdb
 G:\_ProjekatVP\Projekat_VP-master\Client\bin\Debug\Common.dll
 G:\_ProjekatVP\Projekat_VP-master\Client\bin\Debug\Common.pdb
 G:\_ProjekatVP\Projekat_VP-master\Client\obj\Debug\Client.csproj.CopyComplete
+G:\_ProjekatVP\push\Projekat_VP\Client\bin\Debug\Client.exe.config
+G:\_ProjekatVP\push\Projekat_VP\Client\bin\Debug\Client.exe
+G:\_ProjekatVP\push\Projekat_VP\Client\bin\Debug\Client.pdb
+G:\_ProjekatVP\push\Projekat_VP\Client\bin\Debug\Common.dll
+G:\_ProjekatVP\push\Projekat_VP\Client\bin\Debug\Common.pdb
+G:\_ProjekatVP\push\Projekat_VP\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+G:\_ProjekatVP\push\Projekat_VP\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+G:\_ProjekatVP\push\Projekat_VP\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+G:\_ProjekatVP\push\Projekat_VP\Client\obj\Debug\Client.csproj.CopyComplete
+G:\_ProjekatVP\push\Projekat_VP\Client\obj\Debug\Client.exe
+G:\_ProjekatVP\push\Projekat_VP\Client\obj\Debug\Client.pdb
