@@ -3,6 +3,7 @@
 using Common;
 using Common.Enum;
 using Common.Params;
+using Common.Util;
 using Database;
 using Files.Commands;
 using Files.FileHandlers.Impl;
@@ -25,11 +26,12 @@ namespace Server
         private string txtFolderPath;
         private XmlDatabase<Load> xmlDatabase;
         private XmlDatabase<Audit> xmlDatabaseAudit;
+        private int brojac;
 
         public ServerService()
         {
             this.csvFolderPath = GetCsvFolderPathFromConfig();
-            this.txtFolderPath = ConfigurationManager.AppSettings["TxtFolderPath"];
+            this.txtFolderPath = GetTxtFolderPathFromConfig();
             xmlDatabase = new XmlDatabase<Load>("TBL_LOAD.xml");
             xmlDatabaseAudit = new XmlDatabase<Audit>("TBL_AUDIT.xml");
         }
@@ -39,19 +41,30 @@ namespace Server
             return ConfigurationManager.AppSettings["CsvFolderPath"];
         }
 
+        private string GetTxtFolderPathFromConfig()
+        {
+            return ConfigurationManager.AppSettings["TxtFolderPath"];
+        }
+
         public void ProccesCsvFiles()
         {
             try
             {
                 string[] csvFiles = Directory.GetFiles(csvFolderPath, "*.csv");
-
+                brojac = 0;
                 foreach (string csvFile in csvFiles)
                 {
-                    List<Load> loads = ParseCsvFile(csvFile);
+                    List<Audit> audits;
+                    List<Load> loads = ParseCsvFile(csvFile, out audits);
                     foreach (Load load in loads)
                     {
-                        Console.WriteLine(load.ToString());
+                        //Console.WriteLine(load.ToString());
                         xmlDatabase.Add(load);
+                    }
+                    foreach (Audit audit in audits)
+                    {
+                        //Console.WriteLine(audit.ToString());
+                        xmlDatabaseAudit.Add(audit);
                     }
 
                     File.Delete(csvFile);
@@ -65,6 +78,120 @@ namespace Server
             {
                 Console.WriteLine($"Error sending and processing CSV files: {ex.Message}");
             }
+        }
+
+        private List<Load> ParseCsvFile(string filePath, out List<Audit> audits)
+        {
+            List<Load> loads = new List<Load>();
+            audits = new List<Audit>();
+
+
+            try
+            {
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    
+
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        bool flag = false;
+                        brojac++;
+                        string[] values = line.Split(',');
+
+                        if (values.Length != 2)
+                        {
+                            Audit audit = new Audit
+                            {
+                                Id = brojac,
+                                Timestamp = DateTime.Now,
+                                Message = "Neodgovarajuci broj parametara",
+                                MessageType = MessageType.Warning
+                            };
+
+                            audits.Add(audit);
+                            flag = true;
+                            //continue;
+                        }
+
+                        if (!DateTime.TryParse(values[0], out DateTime timeStampAudit))
+                        {
+                            Audit audit = new Audit
+                            {
+                                Id = brojac,
+                                Timestamp = DateTime.Now,
+                                Message = "Nevalidan podatak: TIME_STAMP",
+                                MessageType = MessageType.Error
+                            };
+
+                            audits.Add(audit);
+                            flag = true;
+                            //continue;
+
+                        }
+                        if (!double.TryParse(values[1], out double measuredValueAudit))
+                        {
+                            Audit audit = new Audit
+                            {
+                                Id = brojac,
+                                Timestamp = DateTime.Now,
+                                Message = "Nevalidan podatak: MEASURED_VALUE",
+                                MessageType = MessageType.Error
+                            };
+
+                            audits.Add(audit);
+                            flag = true;
+                            //continue;
+                        }
+
+                        if (flag)
+                        {
+                            continue;
+                        }
+
+                        DateTime.TryParse(values[0], out DateTime timeStamp);
+                        double.TryParse(values[1], out double measuredValue);
+
+                        Audit auditT = new Audit
+                        {
+                            Id = brojac,
+                            Timestamp = DateTime.Now,
+                            Message = "Prosledjeni podaci su validni",
+                            MessageType = MessageType.Info
+                        };
+
+                        audits.Add(auditT);
+
+                        //Console.WriteLine(id);
+                        //Console.WriteLine(timeStamp);
+                        //Console.WriteLine(measuredValue);
+                        Load load = new Load
+                        {
+                            Id = brojac,
+                            Timestamp = timeStamp,
+                            MeasuredValue = measuredValue
+                        };
+
+                        loads.Add(load);
+
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Audit audit = new Audit
+                {
+                    Id = loads.Count + 1,
+                    Timestamp = DateTime.Now,
+                    Message = $"Error parsing CSV file: {ex.Message}",
+                    MessageType = MessageType.Error
+                };
+
+                AddAudit(audit);
+            }
+
+            return loads;
         }
 
         public string GetMinMaxStand(string[] operation)
@@ -99,26 +226,26 @@ namespace Server
                     }
                     resultMessageFull += resultMessage + "\n";
                 }
+                
+                
                 //resultMessageFull += resultMessage + "\n";
 
                 Console.WriteLine(resultMessageFull);
                 
-                string ret =  "calculations" + DateTime.Now.ToString("_yyyy_MM_dd_HHmm") + ".txt";
-                string fileName = "\\" + ret;
+                
 
-                string projectPath = @"..\Client\bin\Debug\Client.exe";
-               // Configuration config = ConfigurationManager.OpenExeConfiguration(projectPath);
+                
 
-                // uploadPathTest - samo za test... inace putanja treba da se cita iz Client -> app.config, to je uploadPath u outputFilePath...
+                
 
-                string uploadPathTest = ConfigurationManager.AppSettings["TxtFolderPath"];
-
-                //string uploadPath = config.AppSettings.Settings["TxtFolderPath"].Value;
-
-                uploadPathTest += fileName;
+                
 
                 string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-                string outputFilePath = Path.Combine(dir, uploadPathTest);  // uploadPath
+                string outputFilePath = Path.Combine(dir, txtFolderPath);  // uploadPath
+                FileDirUtil.CheckCreatePath(outputFilePath);
+                string ret = "calculations" + DateTime.Now.ToString("_yyyy_MM_dd_HHmm") + ".txt";
+                string fileName = "\\" + ret;
+                outputFilePath += fileName;
 
                 File.WriteAllText(outputFilePath, resultMessageFull);
 
@@ -133,85 +260,7 @@ namespace Server
             }
         }
 
-        private List<Load> ParseCsvFile(string filePath)
-        {
-            List<Load> loads = new List<Load>();
-
-            try
-            {
-                using (StreamReader reader = new StreamReader(filePath))
-                {
-                    int brojac = 0;
-                    int brojacAudit = 0;
-                    string line;
-                    while ((line = reader.ReadLine()) != null)
-                    {
-                        brojac++;
-                        string[] values = line.Split(',');
-                        
-                        if (values.Length != 2)
-                        {
-                            brojacAudit++;
-                            Audit audit = new Audit
-                            {
-                                Id = loads.Count + 1,
-                                Timestamp = DateTime.Now,
-                                Message = $"Invalid number of values in line: {line}",
-                                MessageType = MessageType.Error
-                            };
-
-                            AddAudit(audit);
-                            continue;
-                        }
-                        /*
-                        if (!int.TryParse(values[0], out int id) || !DateTime.TryParse(values[1], out DateTime timeStamp) ||
-                            !double.TryParse(values[2], out double measuredValue))
-                        {
-                            Audit audit = new Audit
-                            {
-                                Id = loads.Count + 1,
-                                Timestamp = DateTime.Now,
-                                Message = $"Invalid format in line: {line}",
-                                MessageType = MessageType.Error
-                            };
-
-                            AddAudit(audit);
-                            continue;
-                        }
-*/
-                        //int.TryParse(values[0], out int id);
-                        DateTime.TryParse(values[0], out DateTime timeStamp);
-                        double.TryParse(values[1], out double measuredValue);
-
-                        //Console.WriteLine(id);
-                        Console.WriteLine(timeStamp);
-                        Console.WriteLine(measuredValue);
-                        Load load = new Load
-                        {
-                            Id = brojac,
-                            Timestamp = timeStamp,
-                            MeasuredValue = measuredValue
-                        };
-
-                        loads.Add(load);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Audit audit = new Audit
-                {
-                    Id = loads.Count + 1,
-                    Timestamp = DateTime.Now,
-                    Message = $"Error parsing CSV file: {ex.Message}",
-                    MessageType = MessageType.Error
-                };
-
-                AddAudit(audit);
-            }
-
-            return loads;
-        }
+        
 
         private void AddAudit(Audit audit)
         {

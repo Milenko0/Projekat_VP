@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,8 +11,14 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            Server server = new Server();
-            server.Start();
+            ServiceHost host = new ServiceHost(typeof(ServerService));
+            host.Open();
+
+            Console.WriteLine("Server started.");
+            Console.WriteLine("Press Enter to stop the server.");
+            Console.ReadLine();
+
+            host.Close();
         }
     }
 }
