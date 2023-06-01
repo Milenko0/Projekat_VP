@@ -45,9 +45,12 @@
     <Compile Include="Commands\FileSystemInsertFileCommand.cs" />
     <Compile Include="Commands\ICommand.cs" />
     <Compile Include="Commands\IDataBase.cs" />
+    <Compile Include="FileHandlers\IGetFilesHandler.cs" />
     <Compile Include="FileHandlers\IInsertFileHandler.cs" />
+    <Compile Include="FileHandlers\Impl\GetFilesHandler.cs" />
     <Compile Include="FileHandlers\Impl\InsertFileHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\FileSystemGetFilesQuery.cs" />
     <Compile Include="Queries\IQuery.cs" />
   </ItemGroup>
   <ItemGroup>

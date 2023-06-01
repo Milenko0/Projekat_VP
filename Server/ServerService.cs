@@ -1,10 +1,12 @@
 ﻿
+
 using Common;
 using Common.Enum;
 using Common.Params;
 using Database;
 using Files.Commands;
 using Files.FileHandlers.Impl;
+using Files.Queries;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -20,12 +22,14 @@ namespace Server
     public class ServerService : IServerService
     {
         private string csvFolderPath;
+        private string txtFolderPath;
         private XmlDatabase<Load> xmlDatabase;
         private XmlDatabase<Audit> xmlDatabaseAudit;
 
         public ServerService()
         {
             this.csvFolderPath = GetCsvFolderPathFromConfig();
+            this.txtFolderPath = ConfigurationManager.AppSettings["TxtFolderPath"];
             xmlDatabase = new XmlDatabase<Load>("TBL_LOAD.xml");
             xmlDatabaseAudit = new XmlDatabase<Audit>("TBL_AUDIT.xml");
         }
@@ -63,7 +67,7 @@ namespace Server
             }
         }
 
-        public void GetMinMaxStand(string[] operation)
+        public string GetMinMaxStand(string[] operation)
         {
             try
             {
@@ -91,15 +95,16 @@ namespace Server
                             break;
                         default:
                             Console.WriteLine("Invalid operation.");
-                            return;
+                            return "";
                     }
                     resultMessageFull += resultMessage + "\n";
                 }
                 //resultMessageFull += resultMessage + "\n";
 
                 Console.WriteLine(resultMessageFull);
-
-                string fileName =  "\\calculations" + DateTime.Now.ToString("_yyyy_MM_dd_HHmm") + ".txt";
+                
+                string ret =  "calculations" + DateTime.Now.ToString("_yyyy_MM_dd_HHmm") + ".txt";
+                string fileName = "\\" + ret;
 
                 string projectPath = @"..\Client\bin\Debug\Client.exe";
                // Configuration config = ConfigurationManager.OpenExeConfiguration(projectPath);
@@ -117,11 +122,14 @@ namespace Server
 
                 File.WriteAllText(outputFilePath, resultMessageFull);
 
+                
                 Console.WriteLine($"Result written to file: {outputFilePath}");
+                return ret;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error retrieving result: {ex.Message}");    
+                Console.WriteLine($"Error retrieving result: {ex.Message}");
+                return "";
             }
         }
 
@@ -307,6 +315,22 @@ namespace Server
                 return new FileSystemInsertFileCommand(options, csvFolderPath);
             //}
             //return new DBInsertFileCommand(InMemoryDataBase.Instance, options);
+        }
+
+        [OperationBehavior(AutoDisposeParameters = true)]
+        public FileManipulationResults GetFiles(FileManipulationOptions options)
+        {
+            Console.WriteLine($"Geting files starting with: \"{options.FileName}\"");
+            return new GetFilesHandler(GetFilesQuery(options)).GetFiles();
+        }
+
+        private IQuery GetFilesQuery(FileManipulationOptions options)
+        {
+            //if (options.StorageType == StorageTypes.FileSystem)
+            //{
+                return new FileSystemGetFilesQuery(options, txtFolderPath);
+           // }
+            //return new DBGetFilesQuery(InMemoryDataBase.Instance, options);
         }
     }
 }

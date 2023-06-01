@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Downloading\IDownloader.cs" />
+    <Compile Include="Downloading\StartNameDownloader.cs" />
     <Compile Include="Enum\UploaderType.cs" />
     <Compile Include="FileInUseCheck\FileInUseCommonChecker.cs" />
     <Compile Include="FileInUseCheck\IFileInUseChecker.cs" />

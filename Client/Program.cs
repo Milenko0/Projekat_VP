@@ -7,6 +7,9 @@ using Client.Enums;
 using Client.FileInUseCheck;
 using Client.FileSending;
 using Common;
+using System.IO;
+using Client.Downloading;
+using DownloaderClient.Downloading;
 
 namespace Client
 {
@@ -14,8 +17,15 @@ namespace Client
     {
         static void Main()
         {
-            var uploadPath = ConfigurationManager.AppSettings["uploadPath"];
+            var upload = ConfigurationManager.AppSettings["uploadPath"];
+            string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string uploadPath = Path.Combine(dir, upload);
             FileDirUtil.CheckCreatePath(uploadPath);
+            
+            var download = ConfigurationManager.AppSettings["downloadPath"];
+            string downloadPath = Path.Combine(dir, download);
+            FileDirUtil.CheckCreatePath(downloadPath);
+
             ChannelFactory<IServerService> factory = new ChannelFactory<IServerService>("ServiceServer");
             IServerService proxy = factory.CreateChannel();
 
@@ -26,7 +36,7 @@ namespace Client
             do
             {
                 command = Console.ReadLine();
-                ProcessCommand(proxy, command, uploadPath);
+                ProcessCommand(proxy, command, uploadPath, downloadPath);
             }
             while (!string.Equals(command, "exit", StringComparison.OrdinalIgnoreCase));
 
@@ -54,22 +64,28 @@ namespace Client
             return new FileSender(proxy, fileInUseChecker, storageType, uploadPath);
         }
 
-        private static void ProcessCommand(IServerService serviceProxy, string command, string uploadPath)
+        private static IDownloader GetDownloader(IServerService proxy, string path, StorageTypes storageType)
+        {
+            return new StartNameDownloader(proxy, path, storageType);
+        }
+
+        private static void ProcessCommand(IServerService serviceProxy, string command, string uploadPath, string downloadPath)
         {
             string[] parts = command.Split(' ');
             string operation = parts[0].ToLower();
 
+            string sStorageType = ConfigurationManager.AppSettings["storageType"];
+            if (!Enum.TryParse(sStorageType, out StorageTypes storageType))
+                storageType = StorageTypes.FileSystem;
+            //Console.WriteLine($"{storageType} is being used.");
+            string sUploaderType = ConfigurationManager.AppSettings["uploaderType"];
+            if (!Enum.TryParse(sUploaderType, out UploaderTypes uploaderType))
+                uploaderType = UploaderTypes.Event;
+            //Console.WriteLine($"Upload path: {uploadPath}");
             switch (operation)
             {
                 case "send":
-                    string sStorageType = ConfigurationManager.AppSettings["storageType"];
-                    if (!Enum.TryParse(sStorageType, out StorageTypes storageType))
-                        storageType = StorageTypes.FileSystem;
-                    Console.WriteLine($"{storageType} is being used.");
-                    string sUploaderType = ConfigurationManager.AppSettings["uploaderType"];
-                    if (!Enum.TryParse(sUploaderType, out UploaderTypes uploaderType))
-                        uploaderType = UploaderTypes.Event;
-                    Console.WriteLine($"Upload path: {uploadPath}");
+                    
                     IFileSender fileSender = GetFileSender(serviceProxy, GetFileInUseChecker(), storageType, uploadPath);
                     fileSender.SendFiles();
                     serviceProxy.ProccesCsvFiles();
@@ -80,7 +96,15 @@ namespace Client
                         Console.WriteLine("Invalid command. Usage: Get [operation]...");
                         return;
                     }
-                    serviceProxy.GetMinMaxStand(parts);
+                    
+                    string s = serviceProxy.GetMinMaxStand(parts); ;
+                    IDownloader downloader = GetDownloader(serviceProxy, downloadPath, storageType);
+            
+                        if (s != null && !string.IsNullOrEmpty(s))
+                        {
+                            downloader.Download(s);
+                        }
+                   
                     break;
                 case "exit":
                     Console.WriteLine("Exiting client application...");

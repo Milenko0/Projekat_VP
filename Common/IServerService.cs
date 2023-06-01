@@ -15,9 +15,12 @@ namespace Common
         void ProccesCsvFiles();
 
         [OperationContract]
-        void GetMinMaxStand(string[] operation);
+        string GetMinMaxStand(string[] operation);
 
         [OperationContract]
         FileManipulationResults SendFile(FileManipulationOptions options);
+
+        [OperationContract]
+        FileManipulationResults GetFiles(FileManipulationOptions options);
     }
 }
