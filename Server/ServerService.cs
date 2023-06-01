@@ -1,12 +1,19 @@
-﻿using Common;
+﻿
+using Common;
+using Common.Enum;
+using Common.Params;
 using Database;
+using Files.Commands;
+using Files.FileHandlers.Impl;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace Server
 {
@@ -18,7 +25,7 @@ namespace Server
 
         public ServerService()
         {
-            csvFolderPath = GetCsvFolderPathFromConfig();
+            this.csvFolderPath = GetCsvFolderPathFromConfig();
             xmlDatabase = new XmlDatabase<Load>("TBL_LOAD.xml");
             xmlDatabaseAudit = new XmlDatabase<Audit>("TBL_AUDIT.xml");
         }
@@ -28,7 +35,7 @@ namespace Server
             return ConfigurationManager.AppSettings["CsvFolderPath"];
         }
 
-        public void SendCsvFiles()
+        public void ProccesCsvFiles()
         {
             try
             {
@@ -43,7 +50,7 @@ namespace Server
                         xmlDatabase.Add(load);
                     }
 
-                    //File.Delete(csvFile);
+                    File.Delete(csvFile);
 
                     Console.WriteLine($"Processed CSV file: {csvFile}");
                 }
@@ -285,5 +292,21 @@ namespace Server
             xmlDatabase.Dispose();
         }
 
+        [OperationBehavior(AutoDisposeParameters = true)]
+        public FileManipulationResults SendFile(FileManipulationOptions options)
+        {
+            Console.WriteLine($"Receiving file with name: \"{options.FileName}\"");
+            return new InsertFileHandler(GetInsertFileCommand(options)).InsertFile();
+
+        }
+
+        private ICommand GetInsertFileCommand(FileManipulationOptions options)
+        {
+            //if (options.StorageType == StorageTypes.FileSystem)
+            //{
+                return new FileSystemInsertFileCommand(options, csvFolderPath);
+            //}
+            //return new DBInsertFileCommand(InMemoryDataBase.Instance, options);
+        }
     }
 }

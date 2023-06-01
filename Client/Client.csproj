@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,11 @@
   <ItemGroup>
     <Compile Include="Client.cs" />
     <Compile Include="ClientServiceProxy.cs" />
+    <Compile Include="Enum\UploaderType.cs" />
+    <Compile Include="FileInUseCheck\FileInUseCommonChecker.cs" />
+    <Compile Include="FileInUseCheck\IFileInUseChecker.cs" />
+    <Compile Include="FileSending\CommonFileSender.cs" />
+    <Compile Include="FileSending\IFileSender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,5 +64,6 @@
       <Name>Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

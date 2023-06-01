@@ -1,0 +1,9 @@
+G:\_ProjekatVP\Projekat_VP-master\Files\bin\Debug\Files.dll
+G:\_ProjekatVP\Projekat_VP-master\Files\bin\Debug\Files.pdb
+G:\_ProjekatVP\Projekat_VP-master\Files\bin\Debug\Common.dll
+G:\_ProjekatVP\Projekat_VP-master\Files\bin\Debug\Common.pdb
+G:\_ProjekatVP\Projekat_VP-master\Files\obj\Debug\Files.csproj.AssemblyReference.cache
+G:\_ProjekatVP\Projekat_VP-master\Files\obj\Debug\Files.csproj.CoreCompileInputs.cache
+G:\_ProjekatVP\Projekat_VP-master\Files\obj\Debug\Files.csproj.CopyComplete
+G:\_ProjekatVP\Projekat_VP-master\Files\obj\Debug\Files.dll
+G:\_ProjekatVP\Projekat_VP-master\Files\obj\Debug\Files.pdb

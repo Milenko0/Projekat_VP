@@ -44,10 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Audit.cs" />
+    <Compile Include="Enum\ResultTypes.cs" />
+    <Compile Include="Enum\StorageTypes.cs" />
+    <Compile Include="Exceptions\CustomException.cs" />
+    <Compile Include="Exceptions\IncorrectDataException.cs" />
     <Compile Include="IClientService.cs" />
     <Compile Include="IServerService.cs" />
     <Compile Include="Load.cs" />
+    <Compile Include="Params\FileManipulationOptions.cs" />
+    <Compile Include="Params\FileManipulationResults.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\FileDirUtil.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

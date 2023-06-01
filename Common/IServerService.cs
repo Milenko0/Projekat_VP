@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common.Params;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -11,9 +12,12 @@ namespace Common
     public interface IServerService : IDisposable
     {
         [OperationContract]
-        void SendCsvFiles();
+        void ProccesCsvFiles();
 
         [OperationContract]
         void GetMinMaxStand(string[] operation);
+
+        [OperationContract]
+        FileManipulationResults SendFile(FileManipulationOptions options);
     }
 }

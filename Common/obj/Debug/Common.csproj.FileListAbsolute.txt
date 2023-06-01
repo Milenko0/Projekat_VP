@@ -10,3 +10,9 @@ G:\_ProjekatVP\zadatak4\Common\obj\Debug\Common.csproj.AssemblyReference.cache
 G:\_ProjekatVP\zadatak4\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 G:\_ProjekatVP\zadatak4\Common\obj\Debug\Common.dll
 G:\_ProjekatVP\zadatak4\Common\obj\Debug\Common.pdb
+G:\_ProjekatVP\Projekat_VP-master\Common\bin\Debug\Common.dll
+G:\_ProjekatVP\Projekat_VP-master\Common\bin\Debug\Common.pdb
+G:\_ProjekatVP\Projekat_VP-master\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+G:\_ProjekatVP\Projekat_VP-master\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+G:\_ProjekatVP\Projekat_VP-master\Common\obj\Debug\Common.dll
+G:\_ProjekatVP\Projekat_VP-master\Common\obj\Debug\Common.pdb
