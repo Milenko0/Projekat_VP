@@ -2,301 +2,4327 @@
 <ArrayOfAudit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Audit>
     <Id>1</Id>
-    <Timestamp>2023-06-02T01:58:00.2974983+02:00</Timestamp>
-    <MessageType>Info</MessageType>
-    <Message>Prosledjeni podaci su validni</Message>
+    <Timestamp>2023-06-02T20:20:55.8062705+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
   </Audit>
   <Audit>
     <Id>2</Id>
-    <Timestamp>2023-06-02T01:58:00.2974983+02:00</Timestamp>
-    <MessageType>Info</MessageType>
-    <Message>Prosledjeni podaci su validni</Message>
+    <Timestamp>2023-06-02T20:20:55.8078077+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
   </Audit>
   <Audit>
     <Id>3</Id>
-    <Timestamp>2023-06-02T01:58:00.2974983+02:00</Timestamp>
-    <MessageType>Info</MessageType>
-    <Message>Prosledjeni podaci su validni</Message>
+    <Timestamp>2023-06-02T20:20:55.8078077+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:20:55.8339516+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
   </Audit>
   <Audit>
     <Id>4</Id>
-    <Timestamp>2023-06-02T01:58:00.2974983+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8653167+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>5</Id>
-    <Timestamp>2023-06-02T01:58:00.2974983+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>6</Id>
-    <Timestamp>2023-06-02T01:58:00.2974983+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>7</Id>
-    <Timestamp>2023-06-02T01:58:00.2980085+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>8</Id>
-    <Timestamp>2023-06-02T01:58:00.2980085+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>9</Id>
-    <Timestamp>2023-06-02T01:58:00.2980085+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>10</Id>
-    <Timestamp>2023-06-02T01:58:00.2980085+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>11</Id>
-    <Timestamp>2023-06-02T01:58:00.3610805+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>12</Id>
-    <Timestamp>2023-06-02T01:58:00.3610805+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>13</Id>
-    <Timestamp>2023-06-02T01:58:00.3610805+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>14</Id>
-    <Timestamp>2023-06-02T01:58:00.3610805+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>15</Id>
-    <Timestamp>2023-06-02T01:58:00.3610805+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>16</Id>
-    <Timestamp>2023-06-02T01:58:00.3610805+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>17</Id>
-    <Timestamp>2023-06-02T01:58:00.3610805+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>18</Id>
-    <Timestamp>2023-06-02T01:58:00.3610805+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>19</Id>
-    <Timestamp>2023-06-02T01:58:00.3615916+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.8658356+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>20</Id>
-    <Timestamp>2023-06-02T01:58:00.3615916+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>21</Id>
-    <Timestamp>2023-06-02T01:58:00.3615916+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>22</Id>
-    <Timestamp>2023-06-02T01:58:00.3615916+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>23</Id>
-    <Timestamp>2023-06-02T01:58:00.3615916+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>24</Id>
-    <Timestamp>2023-06-02T01:58:00.3615916+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>25</Id>
-    <Timestamp>2023-06-02T01:58:00.3615916+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>26</Id>
-    <Timestamp>2023-06-02T01:58:00.3615916+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>27</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>28</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>29</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>30</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>31</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>32</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>33</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>34</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>35</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>36</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>37</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>38</Id>
-    <Timestamp>2023-06-02T01:58:00.3964871+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>39</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>40</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>41</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>42</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>43</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:20:55.9351041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:22:26.2650006+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:22:26.3108021+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:22:26.3108021+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:22:26.3108021+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:22:26.3108021+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:22:26.3113174+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>44</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>45</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>46</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>47</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>48</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>49</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>
   <Audit>
     <Id>50</Id>
-    <Timestamp>2023-06-02T01:58:00.3970001+02:00</Timestamp>
+    <Timestamp>2023-06-02T20:22:26.3684261+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:23:42.0116296+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:23:42.0116296+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:23:42.0116296+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:23:42.0254954+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:23:42.0327156+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:23:42.1146704+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:29:56.5624041+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:29:56.623937+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:29:56.623937+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:29:56.623937+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:29:56.623937+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:29:56.623937+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:29:56.6244544+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>44</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>45</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>46</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>47</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>48</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>49</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>50</Id>
+    <Timestamp>2023-06-02T20:29:56.6990584+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:32:12.2189951+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:32:21.4425724+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:37:27.8075349+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:37:27.8080456+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:37:27.8080456+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:37:27.8218542+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:37:27.8310631+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:37:27.8952981+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:40:54.4608253+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:40:54.4608253+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:40:54.4608253+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:40:54.4742111+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:40:54.5002106+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:41:11.5224051+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:41:11.5224051+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:41:11.5224051+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:41:11.5362074+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:41:11.5458997+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:41:11.638206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:43:40.5075403+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:43:40.5080575+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:43:40.5080575+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:43:40.5080575+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:43:40.5080575+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:43:40.5245759+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:43:40.5474166+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:43:40.6326524+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:45:08.9538125+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:45:08.9538125+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:45:08.9538125+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:45:08.9543486+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:45:08.9543486+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:45:08.9543486+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:45:08.9543486+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:45:08.9543486+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:45:08.9543486+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:45:08.9543486+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:45:09.005233+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>44</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>45</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>46</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>47</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>48</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>49</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>50</Id>
+    <Timestamp>2023-06-02T20:45:09.0893988+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:46:51.2225422+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:46:51.2225422+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:46:51.2225422+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:46:51.2373713+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:46:51.2560647+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:46:51.3495206+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:46:51.3500282+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:49:13.7783208+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:49:13.7936671+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:49:13.7982969+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:49:13.8948867+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:51:32.6295952+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:51:32.6301036+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:51:32.6788623+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:51:32.6788623+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:51:32.6793718+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>44</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>45</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>46</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>47</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>48</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>49</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>50</Id>
+    <Timestamp>2023-06-02T20:51:32.7780687+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:54:54.7777692+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:54:54.7777692+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:54:54.7777692+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:54:54.7915156+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:54:54.8043246+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:54:54.9013598+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:56:09.647622+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:56:09.647622+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:56:09.647622+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:56:09.6614281+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:56:09.6716857+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:56:09.7785945+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:57:31.1500973+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:57:31.1500973+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:57:31.1500973+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:57:31.163932+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Error parsing CSV file: Index was outside the bounds of the array.</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:57:31.178904+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:57:31.2779865+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>1</Id>
+    <Timestamp>2023-06-02T20:58:18.8210277+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: TIME_STAMP</Message>
+  </Audit>
+  <Audit>
+    <Id>2</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Warning</MessageType>
+    <Message>Neodgovarajuci broj parametara</Message>
+  </Audit>
+  <Audit>
+    <Id>3</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Error</MessageType>
+    <Message>Nevalidan podatak: MEASURED_VALUE</Message>
+  </Audit>
+  <Audit>
+    <Id>4</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>5</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>6</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>7</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>8</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>9</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>10</Id>
+    <Timestamp>2023-06-02T20:58:18.8215729+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>11</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>12</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>13</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>14</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>15</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>16</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>17</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>18</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>19</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>20</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>21</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>22</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>23</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>24</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>25</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>26</Id>
+    <Timestamp>2023-06-02T20:58:18.8807972+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>27</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>28</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>29</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>30</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>31</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>32</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>33</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>34</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>35</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>36</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>37</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>38</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>39</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>40</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>41</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>42</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>43</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>44</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>45</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>46</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>47</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>48</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>49</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
+    <MessageType>Info</MessageType>
+    <Message>Prosledjeni podaci su validni</Message>
+  </Audit>
+  <Audit>
+    <Id>50</Id>
+    <Timestamp>2023-06-02T20:58:18.9947075+02:00</Timestamp>
     <MessageType>Info</MessageType>
     <Message>Prosledjeni podaci su validni</Message>
   </Audit>

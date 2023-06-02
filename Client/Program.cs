@@ -10,6 +10,7 @@ using Common;
 using System.IO;
 using Client.Downloading;
 using DownloaderClient.Downloading;
+using System.Collections.Generic;
 
 namespace Client
 {
@@ -40,19 +41,7 @@ namespace Client
             }
             while (!string.Equals(command, "exit", StringComparison.OrdinalIgnoreCase));
 
-            
-        
-            //IUploader uploader = GetUploader(uploaderType, GetFileSender(proxy, GetFileInUseChecker(), storageType, uploadPath), uploadPath);
-            //uploader.Start();
-            //Console.WriteLine("Uploader Client is running. Press any key to exit.");
-            //Console.ReadLine();
             Environment.Exit(0);
-            /*
-            using (Client client = new Client())
-            {
-                client.Start();
-            }
-            */
         }
         private static IFileInUseChecker GetFileInUseChecker()
         {
@@ -74,14 +63,8 @@ namespace Client
             string[] parts = command.Split(' ');
             string operation = parts[0].ToLower();
 
-            string sStorageType = ConfigurationManager.AppSettings["storageType"];
-            if (!Enum.TryParse(sStorageType, out StorageTypes storageType))
-                storageType = StorageTypes.FileSystem;
-            //Console.WriteLine($"{storageType} is being used.");
-            string sUploaderType = ConfigurationManager.AppSettings["uploaderType"];
-            if (!Enum.TryParse(sUploaderType, out UploaderTypes uploaderType))
-                uploaderType = UploaderTypes.Event;
-            //Console.WriteLine($"Upload path: {uploadPath}");
+            StorageTypes storageType = StorageTypes.FileSystem;     
+
             switch (operation)
             {
                 case "send":
@@ -89,6 +72,16 @@ namespace Client
                     IFileSender fileSender = GetFileSender(serviceProxy, GetFileInUseChecker(), storageType, uploadPath);
                     fileSender.SendFiles();
                     serviceProxy.ProccesCsvFiles();
+                    
+                    List<string>  greske = serviceProxy.AuditGreske();
+                    if (greske != null)
+                    {
+                        Console.WriteLine("AUDITS Greske:");
+                        foreach (string str in greske)
+                        {
+                            Console.WriteLine(str);
+                        }
+                    }
                     break;
                 case "get":
                     if (parts.Length < 2)

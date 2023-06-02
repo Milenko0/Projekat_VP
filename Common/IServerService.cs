@@ -18,6 +18,9 @@ namespace Common
         string GetMinMaxStand(string[] operation);
 
         [OperationContract]
+        List<string> AuditGreske();
+
+        [OperationContract]
         FileManipulationResults SendFile(FileManipulationOptions options);
 
         [OperationContract]

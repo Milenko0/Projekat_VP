@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\DBInsertFileCommand.cs" />
     <Compile Include="Commands\FileSystemInsertFileCommand.cs" />
     <Compile Include="Commands\ICommand.cs" />
     <Compile Include="Commands\IDataBase.cs" />

@@ -14,6 +14,7 @@ using System.IO;
 using System.Linq;
 using System.ServiceModel;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 
@@ -26,6 +27,7 @@ namespace Server
         private XmlDatabase<Load> xmlDatabase;
         private XmlDatabase<Audit> xmlDatabaseAudit;
         private int brojac;
+        private List<string> greske;
 
         public delegate string CalculationDelegate(double v);
         public event CalculationDelegate MinValueCalculated;
@@ -36,13 +38,30 @@ namespace Server
         {
             this.csvFolderPath = GetCsvFolderPathFromConfig();
             this.txtFolderPath = GetTxtFolderPathFromConfig();
+            string userDefined = ConfigurationManager.AppSettings["UseUserDefinedPath"];
+            string location = ConfigurationManager.AppSettings["XMLPath"];
+            if (bool.TryParse(userDefined, out bool userDefinedBool)){
+                if (userDefinedBool)
+                {
+                    FileDirUtil.CheckCreatePath(location);
+                    xmlDatabase = new XmlDatabase<Load>(location + "/TBL_LOAD.xml");
+                    xmlDatabaseAudit = new XmlDatabase<Audit>(location + "/TBL_AUDIT.xml");
+                    return;
+                }
+                
+            }
             xmlDatabase = new XmlDatabase<Load>("TBL_LOAD.xml");
             xmlDatabaseAudit = new XmlDatabase<Audit>("TBL_AUDIT.xml");
+
         }
 
         private string GetCsvFolderPathFromConfig()
         {
-            return ConfigurationManager.AppSettings["CsvFolderPath"];
+            //return ConfigurationManager.AppSettings["CsvFolderPath"];
+            string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string outputFilePath = Path.Combine(dir, "Temp");  // uploadPath
+            FileDirUtil.CheckCreatePath(outputFilePath);
+            return outputFilePath;
         }
 
         private string GetTxtFolderPathFromConfig()
@@ -54,10 +73,13 @@ namespace Server
         {
             try
             {
+                
                 string[] csvFiles = Directory.GetFiles(csvFolderPath, "*.csv");
                 brojac = 0;
+                greske = new List<string>();
                 foreach (string csvFile in csvFiles)
                 {
+                    
                     List<Audit> audits;
                     List<Load> loads = ParseCsvFile(csvFile, out audits);
                     foreach (Load load in loads)
@@ -73,7 +95,7 @@ namespace Server
 
                     File.Delete(csvFile);
 
-                    Console.WriteLine($"Processed CSV file: {csvFile}");
+                    Console.WriteLine($"Processed CSV file");
                 }
 
                 Console.WriteLine("CSV files sent and processed successfully.");
@@ -92,7 +114,7 @@ namespace Server
         {
             List<Load> loads = new List<Load>();
             audits = new List<Audit>();
-
+            
 
             try
             {
@@ -106,8 +128,9 @@ namespace Server
                         bool flag = false;
                         brojac++;
                         string[] values = line.Split(',');
+                        int duzina = values.Length;
 
-                        if (values.Length != 2)
+                        if (duzina != 2)
                         {
                             Audit audit = new Audit
                             {
@@ -117,12 +140,13 @@ namespace Server
                                 MessageType = MessageType.Warning
                             };
 
+                            greske.Add(audit.ToString());
                             audits.Add(audit);
                             flag = true;
-                            //continue;
+                            
                         }
 
-                        if (!DateTime.TryParse(values[0], out DateTime timeStampAudit))
+                        if (duzina < 1 || !DateTime.TryParse(values[0], out DateTime timeStampAudit))
                         {
                             Audit audit = new Audit
                             {
@@ -131,13 +155,14 @@ namespace Server
                                 Message = "Nevalidan podatak: TIME_STAMP",
                                 MessageType = MessageType.Error
                             };
+                            greske.Add(audit.ToString());
 
                             audits.Add(audit);
                             flag = true;
                             //continue;
 
                         }
-                        if (!double.TryParse(values[1], out double measuredValueAudit))
+                        if (duzina < 2 || !double.TryParse(values[1], out double measuredValueAudit))
                         {
                             Audit audit = new Audit
                             {
@@ -146,7 +171,7 @@ namespace Server
                                 Message = "Nevalidan podatak: MEASURED_VALUE",
                                 MessageType = MessageType.Error
                             };
-
+                            greske.Add(audit.ToString());
                             audits.Add(audit);
                             flag = true;
                             //continue;
@@ -154,6 +179,7 @@ namespace Server
 
                         if (flag)
                         {
+                            
                             continue;
                         }
 
@@ -296,43 +322,6 @@ namespace Server
 
         private double GetStandardDeviation(List<Load> loads)
         {
-            /*
-            double standardDeviation = 0;
-            double x = 0;
-
-            foreach (var load in loads)
-            {
-                x += load.MeasuredValue;
-            }
-
-            x = x / loads.Count;
-
-            double sum = 0;
-            foreach (var load in loads)
-            {
-                sum += Math.Pow((load.MeasuredValue - x), 2);
-            }
-
-            standardDeviation = Math.Sqrt( (sum) / (loads.Count() - 1) );
-
-            return standardDeviation;
-            
-            List<double> doubleList = new List<double>();
-            foreach(var load in loads)
-            {
-                doubleList.Add(load.MeasuredValue);
-            }
-            
-            double average = doubleList.Average();
-            double sumOfDerivation = 0;
-            foreach (double value in doubleList)
-            {
-                sumOfDerivation += (value) * (value);
-            }
-            double sumOfDerivationAverage = sumOfDerivation / (doubleList.Count - 1);
-            return Math.Sqrt(sumOfDerivationAverage - (average * average));
-            */
-
             if (loads == null || loads.Count == 0)
             {
                 throw new ArgumentException("List cannot be null or empty.");
@@ -376,6 +365,11 @@ namespace Server
         private string HandleStandValueCalculated(double standValue)
         {
             return $"Standard deviation: {standValue}";
+        }
+
+        public List<string> AuditGreske()
+        {
+            return greske;
         }
 
         public void Dispose()

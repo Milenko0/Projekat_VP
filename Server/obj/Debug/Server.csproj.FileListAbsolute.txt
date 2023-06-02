@@ -46,11 +46,9 @@ G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Server.exe.config
 G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Server.exe
 G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Server.pdb
 G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Common.dll
-G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Database.exe
 G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Files.dll
 G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Common.pdb
 G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Database.pdb
-G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Database.exe.config
 G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Files.pdb
 G:\_ProjekatVP\push\Projekat_VP\Server\obj\Debug\Server.csproj.AssemblyReference.cache
 G:\_ProjekatVP\push\Projekat_VP\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
@@ -74,3 +72,5 @@ C:\Users\Milenko\Desktop\projVP\Projekat_VP\Server\bin\Debug\Database.pdb
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Server\bin\Debug\Database.exe.config
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Server\bin\Debug\Files.pdb
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Server\obj\Debug\Server.csproj.CopyComplete
+G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Database.dll
+G:\_ProjekatVP\push\Projekat_VP\Server\bin\Debug\Database.dll.config

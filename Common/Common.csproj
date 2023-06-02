@@ -48,7 +48,6 @@
     <Compile Include="Enum\StorageTypes.cs" />
     <Compile Include="Exceptions\CustomException.cs" />
     <Compile Include="Exceptions\IncorrectDataException.cs" />
-    <Compile Include="IClientService.cs" />
     <Compile Include="IServerService.cs" />
     <Compile Include="Load.cs" />
     <Compile Include="Params\FileManipulationOptions.cs" />

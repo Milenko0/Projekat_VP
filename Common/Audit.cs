@@ -39,7 +39,7 @@ namespace Common
 
         public override string ToString()
         {
-            return Id + " " + Timestamp + " " + MessageType + " " + Message;
+            return "ID: " + Id + " Poruka greske: " + Message;
         }
     }
 }

@@ -62,7 +62,7 @@ namespace DownloaderClient.Downloading
             fs.Close();
             fs.Dispose();
             stream.Dispose();
-            Console.WriteLine($"Downloaded file {fileName}");
+            Console.WriteLine($"Downloaded file {path}\\{fileName}");
         }
     }
 }
