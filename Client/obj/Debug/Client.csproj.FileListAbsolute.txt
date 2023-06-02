@@ -53,3 +53,13 @@ C:\Users\Milenko\Desktop\projVP\Projekat_VP\Client\obj\Debug\Client.csproj.CoreC
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Client\obj\Debug\Client.csproj.CopyComplete
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Client\obj\Debug\Client.exe
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Client\obj\Debug\Client.pdb
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\bin\Debug\Client.exe.config
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\bin\Debug\Client.exe
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\bin\Debug\Client.pdb
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\bin\Debug\Common.dll
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\bin\Debug\Common.pdb
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\obj\Debug\Client.exe
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Client\obj\Debug\Client.pdb

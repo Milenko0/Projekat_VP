@@ -25,3 +25,12 @@ C:\Users\Milenko\Desktop\projVP\Projekat_VP\Files\obj\Debug\Files.csproj.CoreCom
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Files\obj\Debug\Files.csproj.CopyComplete
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Files\obj\Debug\Files.dll
 C:\Users\Milenko\Desktop\projVP\Projekat_VP\Files\obj\Debug\Files.pdb
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\bin\Debug\Files.dll
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\bin\Debug\Files.pdb
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\bin\Debug\Common.dll
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\bin\Debug\Common.pdb
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\obj\Debug\Files.csproj.AssemblyReference.cache
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\obj\Debug\Files.csproj.CoreCompileInputs.cache
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\obj\Debug\Files.csproj.CopyComplete
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\obj\Debug\Files.dll
+C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Files\obj\Debug\Files.pdb

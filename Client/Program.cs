@@ -63,17 +63,17 @@ namespace Client
             string[] parts = command.Split(' ');
             string operation = parts[0].ToLower();
 
-            StorageTypes storageType = StorageTypes.FileSystem;     
+            StorageTypes storageType = StorageTypes.FileSystem;
 
             switch (operation)
             {
                 case "send":
-                    
+
                     IFileSender fileSender = GetFileSender(serviceProxy, GetFileInUseChecker(), storageType, uploadPath);
                     fileSender.SendFiles();
                     serviceProxy.ProccesCsvFiles();
-                    
-                    List<string>  greske = serviceProxy.AuditGreske();
+
+                    List<string> greske = serviceProxy.AuditGreske();
                     if (greske != null)
                     {
                         Console.WriteLine("AUDITS Greske:");
@@ -90,7 +90,7 @@ namespace Client
                         return;
                     }
                     
-                    string s = serviceProxy.GetMinMaxStand(parts); ;
+                    string s = serviceProxy.GetMinMaxStand(parts);
                     IDownloader downloader = GetDownloader(serviceProxy, downloadPath, storageType);
             
                         if (s != null && !string.IsNullOrEmpty(s))

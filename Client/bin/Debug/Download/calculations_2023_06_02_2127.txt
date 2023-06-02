@@ -1,0 +1,2 @@
+Min Load: 0
+Max Load: 6484.81545

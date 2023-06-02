@@ -369,7 +369,8 @@ namespace Server
 
         public List<string> AuditGreske()
         {
-            return greske;
+            if(greske.Count>0) return greske;
+            return null;
         }
 
         public void Dispose()
