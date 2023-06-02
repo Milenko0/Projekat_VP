@@ -290,7 +290,7 @@ namespace Server
                         maxValue = load.MeasuredValue;
                 }
             }
-            MinValueCalculated?.Invoke(maxValue);
+            MaxValueCalculated?.Invoke(maxValue);
             return maxValue;
         }
 
@@ -358,7 +358,7 @@ namespace Server
             double variance = sumOfSquaredDifferences / loads.Count;
             double standValue = Math.Sqrt(variance);
 
-            MinValueCalculated?.Invoke(standValue);
+            StandValueCalculated?.Invoke(standValue);
 
             return standValue;
         }
@@ -375,7 +375,7 @@ namespace Server
 
         private string HandleStandValueCalculated(double standValue)
         {
-            return $"Max Load: {standValue}";
+            return $"Stand Load: {standValue}";
         }
 
         public void Dispose()
