@@ -9,6 +9,7 @@ using Files.Queries;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.ServiceModel;
@@ -156,8 +157,10 @@ namespace Server
                             continue;
                         }
 
+                        CultureInfo culture = CultureInfo.InvariantCulture;
+
                         DateTime.TryParse(values[0], out DateTime timeStamp);
-                        double.TryParse(values[1], out double measuredValue);
+                        double.TryParse(values[1], NumberStyles.Any, culture, out double measuredValue);
 
                         Audit auditT = new Audit
                         {
@@ -193,7 +196,7 @@ namespace Server
                     MessageType = MessageType.Error
                 };
 
-                AddAudit(audit);
+                audits.Add(audit);
             }
 
             return loads;
@@ -235,19 +238,10 @@ namespace Server
                     resultMessageFull += resultMessage + "\n";
                 }
                 
-                
                 //resultMessageFull += resultMessage + "\n";
 
                 Console.WriteLine(resultMessageFull);
                 
-                
-
-                
-
-                
-
-                
-
                 string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
                 string outputFilePath = Path.Combine(dir, txtFolderPath);  // uploadPath
                 FileDirUtil.CheckCreatePath(outputFilePath);
@@ -266,13 +260,6 @@ namespace Server
                 Console.WriteLine($"Error retrieving result: {ex.Message}");
                 return "";
             }
-        }
-
-        
-
-        private void AddAudit(Audit audit)
-        {
-            // Add audit object to XML database
         }
 
         private double GetMinValue(List<Load> loads)
