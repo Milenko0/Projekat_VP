@@ -34,3 +34,9 @@ C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Common\obj\Debug\Common.csproj.
 C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Common\obj\Debug\Common.dll
 C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Common\obj\Debug\Common.pdb
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Common\bin\Debug\Common.dll
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Common\bin\Debug\Common.pdb
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Common\obj\Debug\Common.dll
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Common\obj\Debug\Common.pdb

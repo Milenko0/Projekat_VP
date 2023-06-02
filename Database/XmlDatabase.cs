@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace Database
 {
-    public class XmlDatabase<T> : IDisposable where T : class
+    public class XmlDatabase<T> where T : class
     {
         private List<T> data;
         private readonly string filePath;
@@ -54,9 +54,9 @@ namespace Database
             }
         }
 
-        public void Dispose()
+       /* public void Dispose()
         {
             SaveData();
-        }
+        }*/
     }
 }

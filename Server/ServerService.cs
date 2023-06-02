@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 
 namespace Server
 {
-    public class ServerService : IServerService
+    public class ServerService : IServerService, IDisposable
     {
         private string csvFolderPath;
         private string txtFolderPath;
@@ -28,6 +28,7 @@ namespace Server
         private XmlDatabase<Audit> xmlDatabaseAudit;
         private int brojac;
         private List<string> greske;
+        private bool disposedValue = false;
 
         public delegate string CalculationDelegate(double v);
         public event CalculationDelegate MinValueCalculated;
@@ -373,10 +374,10 @@ namespace Server
             return null;
         }
 
-        public void Dispose()
+       /* public void Dispose()
         {
             xmlDatabase.Dispose();
-        }
+        }*/
 
         [OperationBehavior(AutoDisposeParameters = true)]
         public FileManipulationResults SendFile(FileManipulationOptions options)
@@ -409,6 +410,35 @@ namespace Server
                 return new FileSystemGetFilesQuery(options, txtFolderPath);
            // }
             //return new DBGetFilesQuery(InMemoryDataBase.Instance, options);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    // TODO: dispose managed state (managed objects)
+                }
+
+                // TODO: free unmanaged resources (unmanaged objects) and override finalizer
+                // TODO: set large fields to null
+                disposedValue = true;
+            }
+        }
+
+        // // TODO: override finalizer only if 'Dispose(bool disposing)' has code to free unmanaged resources
+        ~ServerService()
+        {
+            // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
+            Dispose(disposing: false);
+        }
+
+        public void Dispose()
+        {
+            // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
+            Dispose(disposing: true);
+            GC.SuppressFinalize(this);
         }
     }
 }

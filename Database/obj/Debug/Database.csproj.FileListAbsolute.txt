@@ -28,3 +28,10 @@ C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Database\obj\Debug\Database.csp
 C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
 C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Database\obj\Debug\Database.dll
 C:\Users\maka-\Source\Repos\Milenko0\Projekat_VP\Database\obj\Debug\Database.pdb
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\bin\Debug\Database.dll.config
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\bin\Debug\Database.dll
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\bin\Debug\Database.pdb
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\obj\Debug\Database.dll
+C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\obj\Debug\Database.pdb
