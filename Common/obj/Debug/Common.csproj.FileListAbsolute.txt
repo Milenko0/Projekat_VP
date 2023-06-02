@@ -22,3 +22,9 @@ G:\_ProjekatVP\push\Projekat_VP\Common\obj\Debug\Common.csproj.AssemblyReference
 G:\_ProjekatVP\push\Projekat_VP\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 G:\_ProjekatVP\push\Projekat_VP\Common\obj\Debug\Common.dll
 G:\_ProjekatVP\push\Projekat_VP\Common\obj\Debug\Common.pdb
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Common\bin\Debug\Common.dll
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Common\bin\Debug\Common.pdb
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Common\obj\Debug\Common.dll
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Common\obj\Debug\Common.pdb

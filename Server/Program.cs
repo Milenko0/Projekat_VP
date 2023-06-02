@@ -11,14 +11,16 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            ServiceHost host = new ServiceHost(typeof(ServerService));
-            host.Open();
+            using (ServiceHost host = new ServiceHost(typeof(ServerService)))
+            {
+                host.Open();
 
-            Console.WriteLine("Server started.");
-            Console.WriteLine("Press Enter to stop the server.");
-            Console.ReadLine();
+                Console.WriteLine("Server started.");
+                Console.WriteLine("Press Enter to stop the server.");
+                Console.ReadLine();
 
-            host.Close();
+                host.Close();
+            }
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿
-
-using Common;
+﻿using Common;
 using Common.Enum;
 using Common.Params;
 using Common.Util;
@@ -27,6 +25,11 @@ namespace Server
         private XmlDatabase<Load> xmlDatabase;
         private XmlDatabase<Audit> xmlDatabaseAudit;
         private int brojac;
+
+        public delegate string CalculationDelegate(double v);
+        public event CalculationDelegate MinValueCalculated;
+        public event CalculationDelegate MaxValueCalculated;
+        public event CalculationDelegate StandValueCalculated;
 
         public ServerService()
         {
@@ -73,6 +76,10 @@ namespace Server
                 }
 
                 Console.WriteLine("CSV files sent and processed successfully.");
+
+                MinValueCalculated += HandleMinValueCalculated;
+                MaxValueCalculated += HandleMaxValueCalculated;
+                StandValueCalculated += HandleStandValueCalculated;
             }
             catch (Exception ex)
             {
@@ -173,8 +180,6 @@ namespace Server
                         };
 
                         loads.Add(load);
-
-
                     }
                 }
             }
@@ -210,15 +215,18 @@ namespace Server
                     {
                         case "min":
                             result = GetMinValue(loads);
-                            resultMessage = $"Min Load: {result}";
+                           // resultMessage = $"Min Load: {result}";
+                            resultMessage = HandleMinValueCalculated(result);
                             break;
                         case "max":
                             result = GetMaxValue(loads);
-                            resultMessage = $"Max Load: {result}";
+                            // resultMessage = $"Max Load: {result}";
+                            resultMessage = HandleMaxValueCalculated(result);
                             break;
                         case "stand":
                             result = GetStandardDeviation(loads);
-                            resultMessage = $"Standard deviation: {result}";
+                            // resultMessage = $"Standard deviation: {result}";
+                            resultMessage = HandleStandValueCalculated(result);
                             break;
                         default:
                             Console.WriteLine("Invalid operation.");
@@ -269,9 +277,6 @@ namespace Server
 
         private double GetMinValue(List<Load> loads)
         {
-
-
-
             double minValue = loads[0].MeasuredValue;
 
             if (loads.Count() > 0)
@@ -282,7 +287,7 @@ namespace Server
                         minValue = load.MeasuredValue;
                 }
             }
-
+            MinValueCalculated?.Invoke(minValue);
             return minValue;
         }
 
@@ -298,7 +303,7 @@ namespace Server
                         maxValue = load.MeasuredValue;
                 }
             }
-
+            MinValueCalculated?.Invoke(maxValue);
             return maxValue;
         }
 
@@ -324,7 +329,7 @@ namespace Server
             standardDeviation = Math.Sqrt( (sum) / (loads.Count() - 1) );
 
             return standardDeviation;
-            */
+            
             List<double> doubleList = new List<double>();
             foreach(var load in loads)
             {
@@ -339,9 +344,51 @@ namespace Server
             }
             double sumOfDerivationAverage = sumOfDerivation / (doubleList.Count - 1);
             return Math.Sqrt(sumOfDerivationAverage - (average * average));
-            
+            */
 
-            
+            if (loads == null || loads.Count == 0)
+            {
+                throw new ArgumentException("List cannot be null or empty.");
+            }
+
+            //racunanje aritmeticke sredine
+            double sum = 0;
+            foreach (var load in loads)
+            {
+                sum += load.MeasuredValue;
+            }
+            double mean = sum / loads.Count;
+
+            //racunanje sume kvadratnih razlika uzoraka i aritmeticke sredine
+            double difference = 0;
+            double sumOfSquaredDifferences = 0;
+            foreach (var load in loads)
+            {
+                difference = load.MeasuredValue - mean;
+                sumOfSquaredDifferences += difference * difference;
+            }
+
+            double variance = sumOfSquaredDifferences / loads.Count;
+            double standValue = Math.Sqrt(variance);
+
+            MinValueCalculated?.Invoke(standValue);
+
+            return standValue;
+        }
+
+        private string HandleMinValueCalculated(double minValue)
+        {
+            return $"Min Load: {minValue}";
+        }
+
+        private string HandleMaxValueCalculated(double maxValue)
+        {
+            return $"Max Load: {maxValue}";
+        }
+
+        private string HandleStandValueCalculated(double standValue)
+        {
+            return $"Max Load: {standValue}";
         }
 
         public void Dispose()

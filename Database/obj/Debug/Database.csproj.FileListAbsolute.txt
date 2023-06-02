@@ -6,3 +6,11 @@ D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Database\obj\Debug\Data
 D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
 D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Database\obj\Debug\Database.exe
 D:\fakultet\6 - semestar\Virtuelizacija procesa\zadatak4\Database\obj\Debug\Database.pdb
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Database\bin\Debug\Database.exe.config
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Database\bin\Debug\Database.exe
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Database\bin\Debug\Database.pdb
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Database\obj\Debug\Database.csproj.SuggestedBindingRedirects.cache
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Database\obj\Debug\Database.exe
+C:\Users\Milenko\Desktop\projVP\Projekat_VP\Database\obj\Debug\Database.pdb
