@@ -43,3 +43,12 @@ C:\Users\Milenko\Desktop\vppp\Projekat_VP\Files\obj\Debug\Files.csproj.CoreCompi
 C:\Users\Milenko\Desktop\vppp\Projekat_VP\Files\obj\Debug\Files.csproj.CopyComplete
 C:\Users\Milenko\Desktop\vppp\Projekat_VP\Files\obj\Debug\Files.dll
 C:\Users\Milenko\Desktop\vppp\Projekat_VP\Files\obj\Debug\Files.pdb
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\bin\Debug\Files.dll
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\bin\Debug\Files.pdb
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\bin\Debug\Common.dll
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\bin\Debug\Common.pdb
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\obj\Debug\Files.csproj.AssemblyReference.cache
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\obj\Debug\Files.csproj.CoreCompileInputs.cache
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\obj\Debug\Files.csproj.CopyComplete
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\obj\Debug\Files.dll
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Files\obj\Debug\Files.pdb

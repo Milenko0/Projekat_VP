@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Database"
+    "\\Common"
   ],
-  "SelectedNode": "\\Database\\XmlDatabase.cs",
+  "SelectedNode": "\\Common\\IServerService.cs",
   "PreviewInSolutionExplorer": false
 }

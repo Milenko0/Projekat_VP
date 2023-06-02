@@ -35,3 +35,10 @@ C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\obj\Debug\Database.csproj.Ass
 C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
 C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\obj\Debug\Database.dll
 C:\Users\Milenko\Desktop\vppp\Projekat_VP\Database\obj\Debug\Database.pdb
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Database\bin\Debug\Database.dll.config
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Database\bin\Debug\Database.dll
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Database\bin\Debug\Database.pdb
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Database\obj\Debug\Database.dll
+G:\_ProjekatVP\push\Milenko0\Projekat_VP\Database\obj\Debug\Database.pdb
