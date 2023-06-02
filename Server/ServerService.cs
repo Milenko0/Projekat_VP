@@ -375,7 +375,7 @@ namespace Server
 
         private string HandleStandValueCalculated(double standValue)
         {
-            return $"Stand Load: {standValue}";
+            return $"Standard deviation: {standValue}";
         }
 
         public void Dispose()
